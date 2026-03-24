@@ -1,0 +1,18 @@
+# _config.yml
+title: Base Roulante PRONTO - Projet IMT Atlantique
+description: Documentation complète de la conception, fabrication et programmation d'une plateforme robotique mobile.
+url: "https://ton-pseudo.github.io/Base_Roulante_PRONTO/" # Remplace par ton URL GitHub Pages !
+baseurl: "/Base_Roulante_PRONTO" # Remplace par le nom de ton dépôt !
+
+# Thème Jekyll - Par défaut pour commencer
+theme: jekyll-theme-minimal
+
+# Exclure des fichiers/dossiers si nécessaire (ex: si tu as des notes personnelles)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
