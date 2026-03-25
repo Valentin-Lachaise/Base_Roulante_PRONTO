@@ -1,18 +1,84 @@
-# _config.yml
-title: Base Roulante PRONTO - Projet IMT Atlantique
-description: Documentation complète de la conception, fabrication et programmation d'une plateforme robotique mobile.
-url: "https://ton-pseudo.github.io/Base_Roulante_PRONTO/" # Remplace par ton URL GitHub Pages !
-baseurl: "/Base_Roulante_PRONTO" # Remplace par le nom de ton dépôt !
+# _config.yml - Configuration ULTRA HAUT DE GAMME pour PRONTO
+# Thème Minimal Mistakes (https://mmistakes.github.io/minimal-mistakes/)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
 
-# Thème Jekyll - Par défaut pour commencer
-theme: jekyll-theme-minimal
+# Informations Générales sur ton Projet
+title: "Base Roulante PRONTO : Un Robot Explorateur Open-Source"
+description: "Projet d'ingénierie complet réalisé à l'IMT Atlantique (Campus de Nantes) - Conception, Fabrication, Programmation."
+# Ton URL exacte :
+url: "https://ton-pseudo.github.io" # Ne pas inclure le nom du dépôt ici, c'est géré par baseurl
+baseurl: "/Base_Roulante_PRONTO" # ICI : le nom de ton dépôt GitHub
 
-# Exclure des fichiers/dossiers si nécessaire (ex: si tu as des notes personnelles)
+# Auteur (Tes infos)
+author:
+  name: "Ton Prénom Nom"
+  avatar: "/assets/images/avatar.jpg" # Une photo de toi ou de ton logo IMT
+  bio: "Ingénieur en Robotique & Systèmes embarqués à l'IMT Atlantique."
+  location: "Nantes, France"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ton-profil/" # Ton LinkedIn
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ton-pseudo"
+
+# Navigation (Menus du site)
+header:
+  - title: "Accueil"
+    url: "/"
+  - title: "Le Robot PRONTO"
+    children:
+      - title: "Présentation Générale"
+        url: "/robot/"
+      - title: "Conception Mécanique"
+        url: "/robot/mecanique/"
+      - title: "Électronique Embarquée"
+        url: "/robot/electronique/"
+      - title: "Logiciel & Firmware"
+        url: "/robot/logiciel/"
+  - title: "Développement & Tests"
+    children:
+      - title: "Méthodologie"
+        url: "/developpement/"
+      - title: "Résultats des Tests"
+        url: "/developpement/tests/"
+      - title: "Défis Relevés"
+        url: "/developpement/defis/"
+  - title: "Ressources"
+    children:
+      - title: "Fichiers CAO"
+        url: "/ressources/cao/"
+      - title: "Fichiers Fabrication"
+        url: "/ressources/fabrication/"
+      - title: "Code Source"
+        url: "/ressources/code/"
+      - title: "Documentation Technique"
+        url: "/ressources/docs/"
+  - title: "À Propos"
+    url: "/about/"
+
+# Paramètres de footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ton-pseudo/Base_Roulante_PRONTO"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ton-profil/"
+
+# Image par défaut pour les articles (si tu écris un blog dessus)
+teaser: "/assets/images/pronto_main_banner.jpg"
+
+# Exclusions
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - README.md
