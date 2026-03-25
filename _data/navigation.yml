@@ -1,0 +1,16 @@
+# _data/navigation.yml
+
+# Main header navigation (déjà défini dans _config.yml)
+
+# Sidebar navigation for 'robot' section
+robot:
+  - title: "Le Robot PRONTO"
+    url: /robot/
+  - title: "Présentation Générale"
+    url: /robot/
+  - title: "Conception Mécanique"
+    url: /robot/mecanique/
+  - title: "Électronique Embarquée"
+    url: /robot/electronique/
+  - title: "Logiciel & Firmware"
+    url: /robot/logiciel/
