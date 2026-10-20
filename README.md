@@ -1,23 +1,23 @@
-# LethalBot : robot autonome suiveur de ligne
+# LethalBot: autonomous line-following robot
 
-Projet PRONTO, IMT Atlantique (février - mai 2026).
+PRONTO project, IMT Atlantique (February - May 2026).
 
-LethalBot est une base roulante autonome qui suit une ligne noire au sol et transporte jusqu'à 20 kg pour moins de 2 kg.
+LethalBot is an autonomous wheeled base that follows a black line on the floor and carries up to 20 kg while weighing less than 2 kg.
 
-Site du projet : https://lethalbot.pages.dev
+Project website: https://lethalbot.pages.dev
 
-## Conception
+## Design
 
-- **Mécanique** : modélisation SolidWorks et Blender, impression 3D et découpe laser au FabLab.
-- **Électronique** : Raspberry Pi Pico W et caméra OV7670.
-- **Logiciel** : programmation en CircuitPython, détection de la ligne par régression linéaire sur l'image de la caméra.
-- **Web** : conception et mise en ligne du site de présentation du projet.
+- **Mechanics**: SolidWorks and Blender modelling, 3D printing and laser cutting at the FabLab.
+- **Electronics**: Raspberry Pi Pico W and OV7670 camera.
+- **Software**: CircuitPython, line detection by linear regression on the camera image.
+- **Web**: design and deployment of the project website.
 
-## Auteur
+## Author
 
-Valentin Lachaise, élève-ingénieur à IMT Atlantique.
-Site personnel : https://vlachaise.pages.dev
+Valentin Lachaise, engineering student at IMT Atlantique.
+Personal website: https://vlachaise.pages.dev
 
-## Licence
+## License
 
 MIT
