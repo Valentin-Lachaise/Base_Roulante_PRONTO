@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/robot.jpg" alt="The finished LethalBot robot on a scale reading 1.778 kg" width="480"></p>
 
-PRONTO project, first year at IMT Atlantique (February - May 2026), team of five.
+PRONTO project, first year at IMT Atlantique (February - May 2026).
 
 LethalBot is an autonomous wheeled base that follows a black line on the floor using only a low-resolution camera. It carries up to 20 kg while weighing less than 2 kg (1.78 kg on the scale above) and runs CircuitPython on a Raspberry Pi Pico W.
 
@@ -60,13 +60,6 @@ Comments and names in the code are in French.
 3. Copy `pico/robot_ligne.py` to the board as `code.py`.
 
 Wiring used by the final program: camera data on GP0-GP7, PCLK GP10, XCLK GP11, HREF GP12, VSYNC GP13, camera I2C on GP8/GP9; motors through a Digilent PmodDHB1 (direction GP14/GP15, PWM GP16/GP17); encoders GP18-GP21; OLED (SH1106) I2C on GP26/GP27; start button GP22; status LED GP28.
-
-## Team
-
-- Marin de Vanssay: programming and computer vision
-- Valentin and Malo: 3D and electrical modelling
-- Kellian: electronic circuit
-- Xhanet: documentation and organisation
 
 ## Author
 Valentin Lachaise, engineering student at IMT Atlantique.
