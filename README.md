@@ -68,10 +68,6 @@ Wiring used by the final program: camera data on GP0-GP7, PCLK GP10, XCLK GP11, 
 - Kellian: electronic circuit
 - Xhanet: documentation and organisation
 
-## Credits
-
-The code in `pico/`, `camera/`, `moteur/` and `viewer_camera.py`, and the photos in `docs/`, come from the team repository by Marin de Vanssay, who wrote the code: [Marin-dv/lethalbot](https://github.com/Marin-dv/lethalbot).
-
 ## Author
 Valentin Lachaise, engineering student at IMT Atlantique.
 Personal website: https://vlachaise.pages.dev
