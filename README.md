@@ -10,6 +10,8 @@ LethalBot is an autonomous wheeled base that follows a black line on the floor u
 
 The mechanical design, CAD files and build log are on the project site: **[lethalbot.pages.dev](https://lethalbot.pages.dev/)**.
 
+<p align="center"><a href="https://lethalbot.pages.dev/"><img src="docs/website.jpg" alt="Home page of the LethalBot project website, with the interactive 3D model of the robot" width="720"></a></p>
+
 It is a single page with an interactive 3D viewer of the robot (assembled and exploded), a line-following and control-law demo, the code explained, the battery and interface, the manufacturing steps, a filterable parts list, the electronics block diagram and the Pico pin assignments. The SolidWorks, STEP, Blender, Inkscape, STL and code files can be downloaded from its Sources section.
 
 ## Design
@@ -47,7 +49,7 @@ The robot has four states, shown on the OLED screen: waiting for the start butto
 | `pico/test_*.py`, `pico/calibration.py` | Tests for the button, camera and motors. |
 | `viewer_camera.py`, `camera/` | PC-side tools: stream the camera image over USB to check what the robot sees, regression prototypes, and `plot_vitesse.py` to plot the motor speed tests. |
 | `moteur/` | The first motor drivers. |
-| `docs/` | Photos used in this README. |
+| `docs/` | Photos and website screenshot used in this README. |
 
 Comments and names in the code are in French.
 
